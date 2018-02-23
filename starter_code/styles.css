@@ -1,0 +1,27 @@
+.flex-container{
+	display:flex;
+	width: 100%;
+}
+.hidden{
+	display: none;
+}
+.chat-body-container{
+	width: 100%;
+}
+
+.chat-body{
+	width: 100%;
+	min-width: 300px;
+	min-height: 300px;
+	max-height: 300px;
+	background-color:white;
+	overflow: scroll;
+}
+
+.ballon{
+	min-width: 250px;
+}
+
+.ballon-right{
+	min-width: 250px;
+}
