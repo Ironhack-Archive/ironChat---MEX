@@ -1,19 +1,19 @@
 ![Iron hack logo](https://camo.githubusercontent.com/52d2ff8778b60261533a7dba8dd989c6893a519b/68747470733a2f2f692e696d6775722e636f6d2f315167724e4e772e706e67)
 
-# Make a chat in no time!
+# Make a chat app in no time!
 
 ## Learning Goals
 After this lesson, you will be able to:
 
 * Understand the importance of a backend
 * To use serverless services for rapid development
-* How to use Firebase database
-* Use jQuery for make interactive web pages
+* How to use Firebase realtime database
+* Use jQuery to make interactive web pages
 * How to publish a webApp
 
 ### Requirements
 * [Fork this repo](https://guides.github.com/activities/forking/)
-* Clone this repo into your `~/ironhack/` folder
+* Clone [this](https://github.com/ironhack/ironChat---MEX.git) repo into your `~/ironhack/` folder
 * make sure you have chorme web browser installed
 
 ### Previous knowledge
@@ -39,7 +39,7 @@ The starter-code provides every resource you need to style your Chat. Please, pu
 
 ## Introduction: How hard is to develop a backend?
 
-We have heard about servers, databases, security, may be we've heard about devOps or hostings, heard that; if you want to make any website you need a server, you need to be concern about the safety of your data, and we also have heard that manage a database is hard, is complicated and troubling, that you need an expert on data science or backend to ensure your data will be secure, and if you want to learn to make all this you need to be a nerd or some kind of super human and invest several years to learn all the stuff needed to become a backend developer.
+We have heard about servers, databases, security, may be we've heard about devOps or hostings. If you want to make any website you need a server that's for sure!, you need to be concern about the safety of your data, and we also have heard that manage a database is hard, is complicated and troubling, you need an expert on data science or backend to ensure your data will be secure, and if you want to learn to make all this you need to be a nerd or some kind of super human and invest several years to learn all the stuff needed to become a backend developer.
 
 
 And it's true. )=
@@ -51,7 +51,7 @@ In just one year the Shazam app had more than 100 million monthly active users, 
 
 <img src="https://images.sftcdn.net/images/t_optimized,f_auto/p/7557c5a4-96db-11e6-9e0e-00163ec9f5fa/123744902/shazam-screenshot.png" width="300" alt="the shazam app"> 
 
-But the truth, today there is many tools to accelerate your success, and we can make a very powerful app with very little effort. Why we use Shazam as an example?, you will see...
+But the truth is, there is many tools today to accelerate your success, and we can make a very powerful app with very little effort. Why we use Shazam as an example?, you will see...
 
 ## 1.- Connect our App to a Firebase Project
 
@@ -61,7 +61,7 @@ We are going to use Firebase, Firebase is a backend as a service is one of the G
 
 * Enter to the [Firebase console](console.firebase.google.com) make sure that you have logged in with any gmail account.
 * Click in the "Add Project" button and set a cool name like "IronhackChat" and choose your country
-<img src="project.png" width="300" alt="adding a new firebase project"/> 
+<img src="assets/addProject.png" width="300" alt="adding a new firebase project"/> 
 * Enter to your brand new firebase project and copy the snipet for web app
 <img src="snipet.png" width="300" alt="adding the references to your app"/>
 * Finally we will navigate to our web app and will paste the firebase snipet into our `index.html` file in line 79, this file is inside our `starter_code` folder
@@ -185,6 +185,5 @@ You can read the Firebase documentation to learn how to deploy our app into a pu
 * [What is Firebase?](https://elandroidelibre.elespanol.com/2016/05/firebase-plataforma-desarrollo-android-ios-web.html)
 * [Who is using Firebase](https://firebase.google.com/use-cases/)
 * [Backend as a service](https://es.wikipedia.org/wiki/Backend_as_a_service)
-
 
 
