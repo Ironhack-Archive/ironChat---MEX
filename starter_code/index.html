@@ -16,7 +16,7 @@
 		  <hr class="my-4">
 		  <p>Para ser parte de la conversación; inicia sesión con tu cuenta de Google:</p>
 		  <p class="lead">
-		    <a class="btn btn-danger btn-lg" href="#" role="button">
+		    <a id="google-login" class="btn btn-danger btn-lg" href="#" role="button">
 			<i class="fa fa-google" aria-hidden="true"></i>
 		    Login</a>
 		  </p>
@@ -79,6 +79,22 @@
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+	
+<script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCF2ZZ2fYz9knhpiF1Qd81ebj4DpKbpQvA",
+    authDomain: "ironhackdemo.firebaseapp.com",
+    databaseURL: "https://ironhackdemo.firebaseio.com",
+    projectId: "ironhackdemo",
+    storageBucket: "ironhackdemo.appspot.com",
+    messagingSenderId: "987657664062"
+  };
+  firebase.initializeApp(config);
+</script>
+
 	<script src="main.js"></script>
 </body>
 </html>
