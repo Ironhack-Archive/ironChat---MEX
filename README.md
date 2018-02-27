@@ -81,7 +81,7 @@ In the Firebase console, inside of the authentication section we clcik the "sign
 ![enabling google auth](googleAuth.png)
 
 ### let's code our login
-Open the `app.js` file inside the `starter_code` folder and add this fragment of code.
+Open the `main.js` file inside the `starter_code` folder and add this fragment of code.
 
 ```javascript
 var provider = new firebase.auth.GoogleAuthProvider();
