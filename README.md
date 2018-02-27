@@ -60,7 +60,7 @@ We are going to use Firebase, Firebase is a backend as a service is one of the G
 
 ### Create the Firebase Project
 
-* Enter to the [Firebase console](console.firebase.google.com) make sure that you have logged in with any gmail account.
+* Enter to the [Firebase console](https://console.firebase.google.com) make sure that you have logged in with any gmail account.
 * Click in the "Add Project" button and set a cool name like "IronhackChat" and choose your country
 <img src="assets/addProject.png" width="300" alt="adding a new firebase project"/> 
 * Enter to your brand new firebase project and copy the snipet for web app
